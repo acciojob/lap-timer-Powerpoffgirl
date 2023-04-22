@@ -77,11 +77,6 @@ const App = () => {
         <button onClick={lapTimer}>Lap Timer</button>
         <button onClick={resetTimer}>Reset Timer</button>
       </span>
-      <p>
-        {" "}
-        {showLapInHours}:{showLapInMinutes}:{showLapInSeconds}:
-        {showLapInMilliseconds}
-      </p>
 
       {items.map((item) => {
         return (
