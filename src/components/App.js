@@ -63,6 +63,7 @@ const App = () => {
   const resetTimer = () => {
     setTime(0);
     setIsRunning(false);
+    setItems([]);
   };
 
   return (
